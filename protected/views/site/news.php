@@ -15,7 +15,7 @@
                  <div class="col1-4">
                      <h3><?= $title; ?></h3>
                      <small class="date"><?= $pubDate; ?></small>
-                     <a href="<?= $link; ?>" target="_blank"><p><?= substr($description,0,250)." ..." ?></p></a>
+                     <a href="<?= $link; ?>" target="_blank"><p><?= $description; ?></p></a>
                  </div>
 
         <?php     
