@@ -12,6 +12,7 @@
         <link rel="shortcut icon" href="/favicon.ico">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <link rel="stylesheet" href="css/main.css?v=1.0" media="screen,projection">
+        <link rel="stylesheet" href="css/style.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
         <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
         <script src="js/jquery.fancybox-1.3.4.pack.js"></script><script src="js/custom.js">
@@ -41,6 +42,11 @@
                                     <strong>Basic</strong>
                                 </a>
                             </li>
+                            <li>
+                                <a href="<?= $baseUrl;?>/industryleader" title="Advantages">
+                                    <strong>Advantages</strong>
+                                </a>
+                            </li>
                         </ul></nav></div> <!-- / #header -->
                 
                 <?php $isFrontpage = false;
@@ -66,7 +72,7 @@
                     <div class="floatLeft">
                         <h2>AMT Market's innovative solutions</h2>                    
                         <p class="large">are your gateway to the Forex market. We are revolutionary thinkers in finance who have set the trend in Forex by delivering new technologies backed by world-class support for individual and institutional traders.</p>
-                    </div>               
+                    </div>            
                 </div> <!-- / #subIntro -->
                 <?php } ?>
             </div>
@@ -96,11 +102,6 @@
                         <p class="followUs clearFix">
                             <a href="./" class="facebook">Facebook</a>
                             <a href="./" class="twitter">Twitter</a>
-                            <a href="./" class="rss">RSS</a>
-                            <a href="./" class="linkedin">LinkedIn</a>
-                            <a href="./" class="vimeo">Vimeo</a>
-                            <a href="./" class="digg">Digg</a>
-                            <a href="./" class="delicious">Delicious</a>
                         </p>                                                
                     </div>
                     
