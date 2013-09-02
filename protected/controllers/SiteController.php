@@ -106,4 +106,23 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+        
+        public function actionPage($page, $id = null)
+	{
+		$param = array();
+
+		if (method_exists($this, 'action'.ucfirst($page)))
+		{
+			$base = Yii::app()->request->baseUrl;
+			if (is_null($id))
+				call_user_func(array($this, 'action'.ucfirst($page)));
+				// $this->redirect("$base/site/$page");
+			else
+				call_user_func(array($this, 'action'.ucfirst($page)), $id);
+				// $this->redirect("$base/site/$page/$id");
+			Yii::app()->end();
+		}
+
+		$this->render($page, $param);
+	}
 }

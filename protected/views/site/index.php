@@ -1,20 +1,56 @@
-<?php
-/* @var $this SiteController */
+<div id="container">
+        <div id="content" class="wrap">                
 
-$this->pageTitle=Yii::app()->name;
-?>
+            <div class="cols marginBottom30 clearFix">
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+                <div class="col1-3">
+                    <h2 class="separate">New to Forex?</h2>
+                    <div class="content withIcon icon1"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p></div>
+                </div>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+                <div class="col1-3">
+                    <h2 class="separate">Try a demo account</h2>
+                    <div class="content withIcon icon2"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p></div>
+                </div>
 
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
+                <div class="col1-3">
+                    <h2 class="separate">Open a live account</h2>
+                    <div class="content withIcon icon3"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p></div>
+                </div>
 
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+            </div>                                
+
+            <hr><h2 class="separate">Recent blog posts</h2>
+
+            <div class="marginBottom30 clearFix">
+
+                <div class="col1-4">
+                    <h3>Post title goes here</h3>
+                    <small class="date">by admin on Feb 3, 2011</small>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
+                </div>
+
+                <div class="col1-4">
+                    <h3>Post title goes here</h3>
+                    <small class="date">by admin on Feb 3, 2011</small>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
+                </div>
+
+                <div class="col1-4">
+                    <h3>Post title goes here</h3>
+                    <small class="date">by admin on Feb 3, 2011</small>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
+                </div>
+
+                <div class="col1-4">
+                    <h3>Post title goes here</h3>
+                    <small class="date">by admin on Feb 3, 2011</small>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus.</p>
+                </div>
+
+            </div>
+
+            <p><a href="./" class="more" title="View blog">View blog</a></p>                                                
+
+        </div> <!-- / .wrap -->
+    </div> <!-- / #container -->  
