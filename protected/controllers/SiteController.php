@@ -122,6 +122,16 @@ class SiteController extends Controller
 				// $this->redirect("$base/site/$page/$id");
 			Yii::app()->end();
 		}
+                else if($page == 'news')
+		{
+			$financeUrl = 'http://finance.yahoo.com/rss/topfinstories';
+			$xml = new SimpleXMLElement(file_get_contents($financeUrl));
+			$activeNews = array();
+			
+			foreach ($xml->channel->item as $key) $activeNews[] = $key;
+
+			$param['activeNews'] = $activeNews;
+		}
 
 		$this->render($page, $param);
 	}

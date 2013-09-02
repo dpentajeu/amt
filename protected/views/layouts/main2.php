@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="author" content="David Kohout &amp; Tom&Atilde;&iexcl;&Aring;&iexcl; Lach - www.tomaslach.cz">
-        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="shortcut icon" href="<?= $baseUrl; ?>/img/favicon.ico">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <link rel="stylesheet" href="css/main.css?v=1.0" media="screen,projection">
         <link rel="stylesheet" href="css/style.css">
@@ -35,6 +35,11 @@
                             <li>
                                 <a href="<?= $baseUrl;?>/aboutus" title="About">
                                     <strong>About</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?= $baseUrl;?>/news" title="News">
+                                    <strong>News</strong>
                                 </a>
                             </li>
                             <li>

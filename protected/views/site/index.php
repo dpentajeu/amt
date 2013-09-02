@@ -5,12 +5,12 @@
 
                 <div class="col1-3">
                     <h2 class="separate">New to Forex?</h2>
-                    <div class="content withIcon icon1"><p>In the market where the results are not only instant – they’re staggering – education plays a crucial role in first-time traders' development.  Learn how to trade Forex now.</p></div>
+                    <div class="content withIcon icon2"><p>In the market where the results are not only instant – they’re staggering – education plays a crucial role in first-time traders' development.  Learn how to trade Forex now.</p></div>
                 </div>
 
                 <div class="col1-3">
                     <h2 class="separate">Try a demo account</h2>
-                    <div class="content withIcon icon2"><p>Demo a no-risk platform now, for free.Ready to jump into trading with a free AMT demo account? Try our popular MetaTrader 4 account. MetaTrader has been a leader in Forex trading software for years.</p></div>
+                    <div class="content withIcon icon1"><p>Demo a no-risk platform now, for free.Ready to jump into trading with a free AMT demo account? Try our popular MetaTrader 4 account. MetaTrader has been a leader in Forex trading software for years.</p></div>
                 </div>
 
                 <div class="col1-3">
