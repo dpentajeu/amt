@@ -25,7 +25,7 @@
             <div class="col3-4">
                 <h2 class="separate">Basic Concepts</h2>
 
-                <h2 class="lead-in">Learning to trade in a new market is like learning to speak a new language.  It's easier when you have a good vocabulary and understand some basic ideas and concepts.  So let's start with the basics of forex trading before moving on to learn how to use the Trading Station. For a more in depth introduction to the forex market, get <a href="#" >AMT Market's New to Forex Trading Guide</a>.</h2>
+                <h2 class="lead-in">Learning to trade in a new market is like learning to speak a new language.  It's easier when you have a good vocabulary and understand some basic ideas and concepts.  So let's start with the basics of forex trading before moving on to learn how to use the Trading Station.</h2>
                 <h3>What is forex?</h3>
                 <p>Forex is a commonly used abbreviation for "foreign exchange".  It typically describes the buying and selling of currency in the foreign exchange market, especially by investors and speculators.  The familiar expression, "buy low and sell high," certainly applies to currency trading.  A forex trader purchases currencies that are undervalued and sells currencies that are overvalued; just as stock trader purchases stock that is undervalued and sells stock that is overvalued. </p>
                 <h3>How do you read a quote?</h3>
@@ -36,9 +36,7 @@
                 <p>A pip is the unit you count profit or loss in.  Most currency pairs, except Japanese yen pairs, are quoted to four decimal places.  This fourth spot after the decimal point (at one 100th of a cent) is typically what one watches to count "pips".  Every point that place in the quote moves is 1 pip of movement.  For example, if the EUR/USD rises from 1.4022 to 1.4027, the EUR/USD has risen 5 pips.</p>
                 <h3>What is leverage/margin?</h3>
                 <p>As mentioned before, all trades are executed using borrowed money.  This allows you to take advantage of leverage.  Leverage of 50:1 allows you to trade with $1,000 in the market by setting aside only $20 as a security deposit.  This means that you can take advantage of even the smallest movements in currencies by controlling more money in the market than you have in your account. On the other hand, leverage can significantly increase your losses.  Trading foreign exchange with any level of leverage may not be suitable for all investors. </p>
-                <p>The specific amount that you are required to put aside to hold a position is referred to as your margin requirement.  Margin can be thought of as a good faith deposit required to maintain open positions.  This is not a fee or a transaction cost, it is simply a portion of your account equity set aside and allocated as a margin deposit. Learn more about <a href="#" >AMT Market's Margin Requirements</a>.</p>
-
-
+                <p>The specific amount that you are required to put aside to hold a position is referred to as your margin requirement.  Margin can be thought of as a good faith deposit required to maintain open positions.  This is not a fee or a transaction cost, it is simply a portion of your account equity set aside and allocated as a margin deposit. For more information, contact us to get an account manager to guide your by steps.</p>
             </div>
         </div>  
     </div>

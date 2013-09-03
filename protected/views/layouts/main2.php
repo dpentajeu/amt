@@ -60,10 +60,10 @@
                         } if($isFrontpage == true){?>
                 <hr><div id="intro">
                         
-                    <h1>Hi, Welcome to AMT Market!</h1>
+                    <h1>AMT Market, Trade with Confidence!</h1>
                     <h2></h2>
                     
-                    <p>Your finance solution.</p>
+                    <p>Deliver opportunities to your doorstep.</p>
                     
                     <a href="<?= $baseUrl;?>/aboutus" class="button" title="MORE ABOUT US"><span>MORE ABOUT US</span></a>
                     
@@ -76,7 +76,7 @@
                         
                     <div class="floatLeft">
                         <h2>AMT Market's innovative solutions</h2>                    
-                        <p class="large">are your gateway to the Forex market. We are revolutionary thinkers in finance who have set the trend in Forex by delivering new technologies backed by world-class support for individual and institutional traders.</p>
+                        <p class="large">are your gateway to the Forex market. We have an experience team in finance who have set the trend in Forex by delivering new resources, technologies and services for individual and institutional traders.</p>
                     </div>            
                 </div> <!-- / #subIntro -->
                 <?php } ?>
@@ -98,7 +98,7 @@
                     <div class="col1-4">
                         <h3>About us</h3>
                         
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                        <p>AMT Market is registered as Financial Service Provider in Malaysia. At AMT Market, we provide you leading forex resources, news and services that will impact your forex trading experience.</p>
                     </div>
                     
                     <div class="col1-4">

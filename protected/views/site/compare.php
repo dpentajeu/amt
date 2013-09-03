@@ -28,7 +28,7 @@
             <div class="col3-4">
                 <h2 class="separate">Compare Execution Types</h2>
 
-                <h3 class="lead-in">FXCM has two types of forex execution: No Dealing Desk (NDD) and Dealing Desk. The execution you choose impacts your trading experience and spreads. We recommend NDD execution because we believe it provides our best all-around trading experience. FXCM also offers a Dealing Desk execution option for traders whose primary concern is low spreads for 12 of FXCM's most popular currency pairs. The Dealing Desk offering, however, has certain trading limitations. To determine which execution offering is best for you, please consult the table below.</h3>
+                <h3 class="lead-in">AMT Market has two types of forex execution: No Dealing Desk (NDD) and Dealing Desk. The execution you choose impacts your trading experience and spreads. We recommend NDD execution because we believe it provides our best all-around trading experience. FXCM also offers a Dealing Desk execution option for traders whose primary concern is low spreads for 12 of FXCM's most popular currency pairs. The Dealing Desk offering, however, has certain trading limitations. To determine which execution offering is best for you, please consult the table below.</h3>
 
                     <table id="gradient-style" style="width:100%; margin-left: 0px;">
                         <tbody><tr class="table-title contains-3 tall-row align-top">
@@ -121,7 +121,7 @@
                             <td><strong>API Trading</strong></td>
                             <td class="dark"><strong>Yes</strong><br>Trade with APIs and no restrictions.</td>
                             <td><strong>Yes</strong><br>
-                                Trade with APIs, but FXCM  reserves the right to manage its risk by changing your execution type to NDD.</td>
+                                Trade with APIs, but AMT  reserves the right to manage its risk by changing your execution type to NDD.</td>
                         </tr>
                     </tbody></table>
 
@@ -135,7 +135,7 @@
                 </div>
 
                 <div id="spreads-table" class="cb-content cb-content-html">
-                    <p>On FXCM's 12 most popular currency pairs, the Dealing Desk execution offers competitive spreads that may be up to one pip lower than FXCM's No Dealing Desk (NDD) spreads. FXCM does not, however, guarantee that quotes, prices or spreads will always be better on one form of execution as compared to the other. Please note that for all other pairs, spreads, quotes, or prices may, at times, be less competitive on Dealing Desk execution.</p>
+                    <p>On AMT's 12 most popular currency pairs, the Dealing Desk execution offers competitive spreads that may be up to one pip lower than FXCM's No Dealing Desk (NDD) spreads. FXCM does not, however, guarantee that quotes, prices or spreads will always be better on one form of execution as compared to the other. Please note that for all other pairs, spreads, quotes, or prices may, at times, be less competitive on Dealing Desk execution.</p>
                     <div class="table-wrap">
                         <table id="gradient-style" style="width:100%; margin-left: 0px;">
                             <tbody><tr>

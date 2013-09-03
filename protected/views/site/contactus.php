@@ -10,20 +10,20 @@
                 <h2>About AMT Market</h2>
                 <ul>
                     <li>
-                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About US</a>
+                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About Us</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact US</a>
+                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact Us</a>
                     </li>
                 </ul>
                 
             </div>
 
             <div class="col3-4">
-                <h2 class="separate">Contact US</h2>
+                <h2 class="separate">Contact Us</h2>
                     <h2>We're committed to helping you, when you need us most.</h2>
                     <h3>Customer Support</h3>
-                    <p class="bodytext">24-hours a day (Sunday 5 PM to Friday 4 PM EST)
+                    <p class="bodytext">24-hours a day (Sunday 5 PM to Friday 4 PM UTC)
                     </p>
                     <p class="bodytext">Phone: (+356) 2013-3933
                     </p>
@@ -34,14 +34,14 @@
                     </p>
                     <p class="bodytext">Fax: (+356) 2138-3307
                     </p>
-                    <p class="bodytext"><b>Email / Customer Support: </b><br><a href="mailto:support@fxdd.com.mt">support@fxdd.com.mt</a>
+                    <p class="bodytext"><b>Email / Customer Support: </b><br><a href="mailto:support@amtmarket.com">support@amtmarket.com</a>
                     </p>
-                    <p class="bodytext"><b>Sales Support: </b><br><a href="mailto:sales@fxdd.com.mt">sales@fxdd.com.mt</a>
+                    <p class="bodytext"><b>Sales Support: </b><br><a href="mailto:sales@amtmarket.com">sales@amtmarket.com</a>
                     </p>
-                    <p class="bodytext"><b>Marketing Support: </b><br><a href="mailto:marketing@fxdd.com">marketing@fxdd.com</a>
+                    <p class="bodytext"><b>Marketing Support: </b><br><a href="mailto:marketing@amtmarket.com">marketing@amtmarket.com>
                     </p>
                     <h3>Direct Mail</h3>
-                    <p class="bodytext">FXDD Malta Ltd.<br> K2, First Floor,<br> Forni Complex,<br> Valletta Waterfront<br> Floriana, FRN 1913<br> Malta</p>
+                    <p class="bodytext"></p>
             </div>
         </div>  
     </div>

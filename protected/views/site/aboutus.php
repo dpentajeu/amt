@@ -10,10 +10,10 @@
                 <h2>About AMT Market</h2>
                 <ul>
                     <li>
-                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About US</a>
+                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About Us</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact US</a>
+                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact Us</a>
                     </li>
                 </ul>
                 
@@ -23,10 +23,9 @@
                 <h2 class="separate">About US</h2>
 
                 <h2>Defining The Future of Online Forex Trading</h2>
-                <p class="bodytext">Headquartered in Malta, an emerging hub for foreign exchange trading and global finance, AMT Market employs a diverse workforce of over 180 Forex specialists fluent in 13 languages. We offer trading solutions to individual and institutional traders, hedge funds, money managers, white labels, and introducing brokers; all of which are tailored to each specific trader's needs and strategies.&nbsp;
+                <p class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum bibendum neque, quis fermentum urna. Sed eu orci id lectus rutrum elementum. Proin commodo at felis id lacinia. Integer lectus ligula, iaculis eget risus ut, posuere tempus nisl. Nulla imperdiet tellus in ipsum pulvinar, nec sollicitudin ante scelerisque. Morbi a facilisis tellus, quis tristique metus. Donec nibh augue, egestas ut massa ut, varius sodales purus. Curabitur ornare libero in diam dapibus, quis ornare lectus suscipit. Mauris quis sem est. Curabitur malesuada blandit purus. In nec pretium justo, rutrum tempor velit. Cras quis blandit nisi. Cras non urna in erat aliquet commodo.
                 </p>
-                <p class="bodytext">Our global reach and ability to develop cutting-edge tools at a rate that outpaces other brokerages has helped AMT Market develop into global force in Forex. &nbsp;And as we continue to develop, so too will our offerings and technologies; giving traders the opportunity to make the most of the currency market.</p>
-            </div>
+           </div>
         </div>  
     </div>
 </div>
