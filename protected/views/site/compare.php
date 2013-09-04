@@ -28,7 +28,7 @@
             <div class="col3-4">
                 <h2 class="separate">Compare Execution Types</h2>
 
-                <h3 class="lead-in">AMT Market has two types of forex execution: No Dealing Desk (NDD) and Dealing Desk. The execution you choose impacts your trading experience and spreads. We recommend NDD execution because we believe it provides our best all-around trading experience. FXCM also offers a Dealing Desk execution option for traders whose primary concern is low spreads for 12 of FXCM's most popular currency pairs. The Dealing Desk offering, however, has certain trading limitations. To determine which execution offering is best for you, please consult the table below.</h3>
+                <h3 class="lead-in">AMT Market has two types of forex execution: No Dealing Desk (NDD) and Dealing Desk. The execution you choose impacts your trading experience and spreads. We recommend NDD execution because we believe it provides our best all-around trading experience. To determine which execution offering is best for you, please consult the table below.</h3>
 
                     <table id="gradient-style" style="width:100%; margin-left: 0px;">
                         <tbody><tr class="table-title contains-3 tall-row align-top">
