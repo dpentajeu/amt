@@ -23,7 +23,12 @@
                 <h2 class="separate">About US</h2>
 
                 <h2>Defining The Future of Online Forex Trading</h2>
-                <p class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum bibendum neque, quis fermentum urna. Sed eu orci id lectus rutrum elementum. Proin commodo at felis id lacinia. Integer lectus ligula, iaculis eget risus ut, posuere tempus nisl. Nulla imperdiet tellus in ipsum pulvinar, nec sollicitudin ante scelerisque. Morbi a facilisis tellus, quis tristique metus. Donec nibh augue, egestas ut massa ut, varius sodales purus. Curabitur ornare libero in diam dapibus, quis ornare lectus suscipit. Mauris quis sem est. Curabitur malesuada blandit purus. In nec pretium justo, rutrum tempor velit. Cras quis blandit nisi. Cras non urna in erat aliquet commodo.
+                <p class="bodytext">
+                    Auto Matrix Traders Limited(AMT) is fully committed in delivering the industry's top quality service to customers from all walks of life, from beginners to professional day traders.
+                    <br/>
+                    Devoted to the intricate designs, we aim to allow our customers to experience the comfort of trading in the ideal environment comprehensively equipped with innovative, superior features.
+                    <br/>
+                    We welcome you to our Hong Kong office located in Chai Wan, Hong Kong which is easily accessible and so convenient that you can simply drop by to open an account, attend our free workshops or speak to our account manager anytime. Our professional officers are always around to provide close assistance to all our clients and anyone who would like to understand more about the exciting forex market.
                 </p>
            </div>
         </div>  

@@ -92,13 +92,13 @@
                     <div class="col1-4">
                         <a href="./" id="footerLogo">AMT Market</a>
                         
-                        <p class="light">&copy; 2013 AMT Market All Rights Reserved.</p>
+                        <p class="light">&copy; 2013 Auto Matrix Traders Limited. All Rights Reserved.</p>
                     </div>
                     
                     <div class="col1-4">
                         <h3>About us</h3>
                         
-                        <p>AMT Market is registered as Financial Service Provider in Malaysia. At AMT Market, we provide you leading forex resources, news and services that will impact your forex trading experience.</p>
+                        <p>AMT Market is registered as Financial Service Provider in Hong Kong. At AMT Market, we provide you leading forex resources, news and services that will impact your forex trading experience.</p>
                     </div>
                     
                     <div class="col1-4">
