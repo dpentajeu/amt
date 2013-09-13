@@ -14,7 +14,7 @@
 
                 <div class="col1-3">
                     <h2 class="separate">Try a demo account</h2>
-                    <div class="content withIcon icon1"><p>Demo a no-risk and free platform. Ready to jump into trading with a free AMT demo account? Try our popular MetaTrader 4 account. MetaTrader has been a leader in Forex trading software for years.</p></div>
+                    <div class="content withIcon icon1"><p>Demo a no-risk and free platform. Ready to jump into trading with a free AMT demo account? Try our popular MetaTrader 4 account. MetaTrader has been a leader in Forex trading software for years. <a href="<?= $baseUrl ?>/upload/amtmarket4setup.exe">Download now</a></p></div>
                 </div>
 
                 <div class="col1-3">
