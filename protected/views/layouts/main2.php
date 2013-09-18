@@ -28,28 +28,33 @@
                     <a id="logo" href="./" title="Asterisk"><img style="width:280px;height:70px" src="<?= $baseUrl; ?>/img/AMT_logo.png" /></a>
                     
                     <hr><nav><ul><li>
-                                <a href="<?= $baseUrl ?>" title="Home">
+                                <a href="<?= $baseUrl ?>" title="">
                                     <strong>Home</strong>
                                 </a>
                             </li>
                             <li>
-                                <a href="<?= $baseUrl;?>/aboutus" title="About">
+                                <a href="<?= $baseUrl;?>/aboutus" title="">
                                     <strong>About</strong>
                                 </a>
                             </li>
                             <li>
-                                <a href="<?= $baseUrl;?>/news" title="News">
+                                <a href="<?= $baseUrl;?>/news" title="">
                                     <strong>News</strong>
                                 </a>
                             </li>
                             <li>
-                                <a href="<?= $baseUrl;?>/whatisforex" title="Basic">
+                                <a href="<?= $baseUrl;?>/whatisforex" title="">
                                     <strong>Basic</strong>
                                 </a>
                             </li>
                             <li>
-                                <a href="<?= $baseUrl;?>/industryleader" title="Advantages">
+                                <a href="<?= $baseUrl;?>/industryleader" title="">
                                     <strong>Advantages</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://member.amtmarket.com" title="">
+                                    <strong>Member</strong>
                                 </a>
                             </li>
                         </ul></nav></div> <!-- / #header -->
