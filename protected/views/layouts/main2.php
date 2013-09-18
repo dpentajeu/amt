@@ -27,8 +27,10 @@
                     
                     <a id="logo" href="./" title="Asterisk"><img style="width:280px;height:70px" src="<?= $baseUrl; ?>/img/AMT_logo.png" /></a>
                     
-                    <hr><nav><ul><li>
-                                <a href="<?= $baseUrl ?>" title="">
+                    <hr><nav>
+                            <ul>
+                            <li>
+                                <a href="<?= $baseUrl;?>/index" title="">
                                     <strong>Home</strong>
                                 </a>
                             </li>
