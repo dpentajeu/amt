@@ -27,7 +27,7 @@
                     </p>
                     <p class="bodytext"><b>Sales Support: </b><br><a href="mailto:sales@amtmarket.com">sales@amtmarket.com</a>
                     </p>
-                    <p class="bodytext"><b>Marketing Support: </b><br><a href="mailto:marketing@amtmarket.com">marketing@amtmarket.com>
+                    <p class="bodytext"><b>Marketing Support: </b><br><a href="mailto:marketing@amtmarket.com">marketing@amtmarket.com
                     </p>
                     <h3>Direct Mail</h3>
                     <p class="bodytext">

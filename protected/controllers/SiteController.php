@@ -29,6 +29,12 @@ class SiteController extends Controller
 	{
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
+		// $ch = curl_init("http://www.fxopen.com/");
+		// curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		// $page = curl_exec($ch);
+		// if (preg_match('#<div class="global-rates"[^>]*>(.+?)</div>#is', $page, $matches));
+		// header("content-type: text/plain");
+		// echo $matches[0];
 		$this->render('index');
 	}
 
@@ -122,7 +128,7 @@ class SiteController extends Controller
 				// $this->redirect("$base/site/$page/$id");
 			Yii::app()->end();
 		}
-                else if($page == 'news')
+        else if($page == 'news')
 		{
 			$financeUrl = 'http://finance.yahoo.com/rss/topfinstories';
 			$xml = new SimpleXMLElement(file_get_contents($financeUrl));

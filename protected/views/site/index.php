@@ -30,18 +30,21 @@
 
                 <div class="col1-4">
                     <p><strong>HIGH RISK WARNING:</strong> Foreign exchange trading carries a high level of risk that may not be suitable for all. Leverage creates additional risk and loss exposure. Before you decide to trade foreign exchange, carefully consider your investment objectives, experience level, and risk tolerance.</p>
-                </div>
-
-                <div class="col1-4">
                     <p><strong>ADVISORY WARNING:</strong> AMT Market provides references and links to selected blogs and other sources of economic and market information as an educational service to its clients and prospects and does not endorse the recommendations of the blogs or other sources of information.</p>
                 </div>
 
                 <div class="col1-4">
-                    <p>We are committed to protecting our customers' personal and financial information. In the course of providing you with financial products and services, we need to collect and maintain certain nonpublic personal information about you. Most importantly, we do not sell your personal information to anyone.</p>
+                    <p>We are committed to protecting our customers' personal and financial information. In the course of providing you with financial products and services, we need to collect and maintain certain nonpublic personal information about you. Most importantly, we do not sell your personal information to anyone. 
+                    Please note the information on this website is intended for retail customers only, and certain representations herein may not be applicable to Eligible Contract Participants (i.e., institutional clients) as defined in the Commodity Exchange Act 1(a)(12).</p>
                 </div>
 
                 <div class="col1-4">
-                    <p>Please note the information on this website is intended for retail customers only, and certain representations herein may not be applicable to Eligible Contract Participants (i.e., institutional clients) as defined in the Commodity Exchange Act 1(a)(12).</p>
+                    <iframe id="iframe" src="http://www.forex-informers.com/forex_news/informer/sz=200_160&amp;cn=5&amp;r=1&amp;hc=0&amp;s=&amp;sf=v&amp;ss=10&amp;sw=0&amp;sd=0&amp;si=0&amp;sht=1&amp;tf=v&amp;ts=11&amp;tw=0&amp;td=0&amp;ti=1&amp;c1=ffffff&amp;c2=ff0000&amp;c3=000000&amp;c4=fa0000" frameborder="0" width="200px" height="100%" scrolling="no" style="height: 400px;">
+                    </iframe>
+                </div>
+
+                <div class="col1-4">
+                    <iframe scrolling="no" frameborder="0" class="ChartIFrame" style="width: 280px; height: 410px; border: 0px none;" src="http://stocks.avatrade.com/StocksIFrame2.aspx"></iframe>
                 </div>
 
             </div>                                            

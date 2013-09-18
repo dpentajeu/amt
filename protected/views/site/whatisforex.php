@@ -23,8 +23,8 @@
             </div>
 
             <div class="col3-4">
-                <h2 class="separate">What is Forex?</h2>
-
+                <h2 class="separate">What is Forex market?</h2>
+                <iframe height="498" width="510" src="http://player.youku.com/embed/XMzM3NjM0NTcy" frameborder="0" allowfullscreen></iframe>
                 <h3>What Am I Doing When I Trade Forex?</h3>
                 <p>Forex is a commonly used abbreviation for "foreign exchange," and it is typically used to describe trading in the foreign exchange market by investors and speculators.</p>
                 <p> For example, imagine a situation where the U.S. dollar is expected to weaken in value relative to the euro.  A forex trader in this situation will sell dollars and buy euros.  If the euro strengthens, the purchasing power to buy dollars has now increased.  The trader can now buy back more dollars than they had to begin with, making a profit.</p>

@@ -25,9 +25,14 @@
                 <h2>Defining The Future of Online Forex Trading</h2>
                 <p class="bodytext">
                     Auto Matrix Traders Limited(AMT) is fully committed in delivering the industry's top quality service to customers from all walks of life, from beginners to professional day traders.
-                    <br/>
                     Devoted to the intricate designs, we aim to allow our customers to experience the comfort of trading in the ideal environment comprehensively equipped with innovative, superior features.
-                    <br/>
+                </p>
+                <p>
+                    AMT trading conditions are rightfully considered as one of the best across the region. Our customers have free access to a great variety of trading instruments as well as to state-of-the art information technologies and software products from the leading forex products - MetaQuotes Software MetaTrader 4 developer, e-Signal and others. 
+                    To get access to trading possibilities, download our MT4 software <a href="<?= $baseUrl ?>/upload/amtmarket4setup.exe">here</a> and start trading account online, else <a href="<?= $baseUrl ?>/contactus">contact us</a> for more information.
+                    <img src="<?= $baseUrl ?>/images/mt4.png" width="700px">
+                </p>
+                <p>
                     We welcome you to our Hong Kong office located in Chai Wan, Hong Kong which is easily accessible and so convenient that you can simply drop by to open an account, attend our free workshops or speak to our account manager anytime. Our professional officers are always around to provide close assistance to all our clients and anyone who would like to understand more about the exciting forex market.
                 </p>
            </div>
