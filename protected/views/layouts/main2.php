@@ -30,7 +30,7 @@
                     <hr><nav>
                             <ul>
                             <li>
-                                <a href="<?= $baseUrl;?>/index" title="">
+                                <a href="<?= $baseUrl;?>/" title="">
                                     <strong>Home</strong>
                                 </a>
                             </li>
