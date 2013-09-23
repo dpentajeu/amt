@@ -10,13 +10,23 @@
                 <h2>About AMT Market</h2>
                 <ul>
                     <li>
-                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About Us</a>
+                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About us</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact Us</a>
+                        <a href="<?= $baseUrl; ?>/whyus" class="more">Why us</a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseUrl; ?>/industryleader" class="more">Industry leader</a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseUrl; ?>/testimonial" class="more">Testimonial</a>
                     </li>
                 </ul>
-                
+                <br/>
+                <a href="http://www.metatrader4.com/" target="_blank"><img src="<?= $baseUrl ?>/images/ads_1.jpg"></a>
             </div>
 
             <div class="col3-4">
@@ -29,7 +39,7 @@
                 </p>
                 <p>
                     AMT trading conditions are rightfully considered as one of the best across the region. Our customers have free access to a great variety of trading instruments as well as to state-of-the art information technologies and software products from the leading forex products - MetaQuotes Software MetaTrader 4 developer, e-Signal and others. 
-                    To get access to trading possibilities, download our MT4 software <a href="<?= $baseUrl ?>/upload/amtmarket4setup.exe">here</a> and start trading account online, else <a href="<?= $baseUrl ?>/contactus">contact us</a> for more information.
+                    To get access to trading possibilities, try our demo software <a href="#">here</a> and start trading account online, else <a href="<?= $baseUrl ?>/contactus">contact us</a> for more information.
                     <img src="<?= $baseUrl ?>/images/mt4.png" width="700px">
                 </p>
                 <p>

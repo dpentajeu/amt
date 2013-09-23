@@ -7,19 +7,13 @@
         <div class="marginBottom30 clearFix">
 
             <div class="col1-4">
-                <h2>Advantages</h2>
-                <ul>
+                <h2>Resources</h2>
+                <ul>                    
                     <li>
-                        <a href="<?= $baseUrl; ?>/industryleader" class="more">Industry Leader</a>
-                    </li>
-                   <!--  <li>
-                        <a href="<?= $baseUrl; ?>/compare" class="more">Compare Execution Types</a>
+                        <a href="<?= $baseUrl; ?>/download" class="more">Download</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/pricing" class="more">Forex Spreads Pricing</a>
-                    </li> -->
-                    <li>
-                        <a href="<?= $baseUrl; ?>/tradingtools" class="more">Forex Trading Tools</a>
+                        <a href="<?= $baseUrl; ?>/tradingtools" class="more">MT4</a>
                     </li>
                 </ul>
                 
@@ -28,7 +22,7 @@
             <div class="col3-4">
                 <h2 class="separate">Forex Trading Tools</h2>
 
-                <h2 class="lead-in">Live AMT account holders have full access to a world class suite of forex trading tools. Download our MT4 software <a href="<?= $baseUrl ?>/upload/amtmarket4setup.exe">here</a> and start trading account online today.</h2>
+                <h2 class="lead-in">Live AMT account holders have full access to a world class suite of forex trading tools. Try our MT4 software <a href="<?= $baseUrl ?>/upload/amtmarket4setup.exe">here</a> and start trading account online today.</h2>
                 <img src="<?= $baseUrl; ?>/images/mt4_2.png" width="700px">
                 <h3>Professional Charts</h3>
                 <p>The Trading Station charts offer AMT traders the flexibility to create and manage positions directly from their charts. The robust package comes with tick volume data, advanced charting tools such as Fibonacci lines and Gann Fanns, and thirty popular pre-loaded indicators. Traders can also set price and indicator alerts, as well as customize the look and feel of their chart setup.</p>

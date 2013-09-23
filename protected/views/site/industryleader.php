@@ -7,22 +7,26 @@
         <div class="marginBottom30 clearFix">
 
             <div class="col1-4">
-                <h2>Advantages</h2>
+                <h2>Resources</h2>
                 <ul>
                     <li>
-                        <a href="<?= $baseUrl; ?>/industryleader" class="more">Industry Leader</a>
-                    </li>
-                    <!-- <li>
-                        <a href="<?= $baseUrl; ?>/compare" class="more">Compare Execution Types</a>
+                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About us</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/pricing" class="more">Forex Spreads Pricing</a>
-                    </li> -->
+                        <a href="<?= $baseUrl; ?>/whyus" class="more">Why us</a>
+                    </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/tradingtools" class="more">Forex Trading Tools</a>
+                        <a href="<?= $baseUrl; ?>/industryleader" class="more">Industry leader</a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseUrl; ?>/testimonial" class="more">Testimonial</a>
                     </li>
                 </ul>
-                
+                <br/>
+                <a href="http://www.metatrader4.com/" target="_blank"><img src="<?= $baseUrl ?>/images/ads_1.jpg"></a>
             </div>
 
             <div class="col3-4">

@@ -10,13 +10,23 @@
                 <h2>About AMT Market</h2>
                 <ul>
                     <li>
-                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About Us</a>
+                        <a href="<?= $baseUrl; ?>/aboutus" class="more">About us</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact Us</a>
+                        <a href="<?= $baseUrl; ?>/whyus" class="more">Why us</a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseUrl; ?>/industryleader" class="more">Industry leader</a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseUrl; ?>/contactus" class="more">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="<?= $baseUrl; ?>/testimonial" class="more">Testimonial</a>
                     </li>
                 </ul>
-                
+                <br/>
+                <a href="http://www.metatrader4.com/" target="_blank"><img src="<?= $baseUrl ?>/images/ads_1.jpg"></a>
             </div>
 
             <div class="col3-4">
@@ -27,7 +37,7 @@
                     </p>
                     <p class="bodytext"><b>Sales Support: </b><br><a href="mailto:sales@amtmarket.com">sales@amtmarket.com</a>
                     </p>
-                    <p class="bodytext"><b>Marketing Support: </b><br><a href="mailto:marketing@amtmarket.com">marketing@amtmarket.com
+                    <p class="bodytext"><b>Marketing Support: </b><br><a href="mailto:marketing@amtmarket.com">marketing@amtmarket.com</a>
                     </p>
                     <h3>Direct Mail</h3>
                     <p class="bodytext">

@@ -7,16 +7,19 @@
         <div class="marginBottom30 clearFix">
 
             <div class="col1-4">
-                <h2>Basic</h2>
+                <h2>Knowledge centre</h2>
                 <ul>
                     <li>
                         <a href="<?= $baseUrl; ?>/whatisforex" class="more">What is Forex?</a>
                     </li>
                     <li>
+                        <a href="<?= $baseUrl; ?>/education" class="more">Education</a>
+                    </li>
+                    <li>
                         <a href="<?= $baseUrl; ?>/whyforex" class="more">Why Trade Forex?</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/basicconcepts" class="more">Basic Concepts</a>
+                        <a href="<?= $baseUrl; ?>/faq" class="more">FAQs</a>
                     </li>
                 </ul>
                 
