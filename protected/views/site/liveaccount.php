@@ -166,7 +166,7 @@
             if($('input#terms').is(':checked') && $('input#agreement').is(':checked'))
             {
             $.ajax({
-              type: "POST",
+              type: "GET",
               url: 'http://member.amtmarket.com/site/newmember',
               crossDomain: true,
               dataType: 'jsonp',

@@ -46,7 +46,7 @@
                         <div class="control-group">
                          <label class="control-label">Gender:*</label>
                            <div class="controls">
-                             <select name="MemberForm[gender]" id="MemberForm_gender">
+                             <select name="DemoForm[gender]" id="DemoForm_gender">
                                 <option value="">Select a gender</option>
                                 <option value="MALE">Male</option>
                                 <option value="FEMALE">Female</option>
