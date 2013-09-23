@@ -14,12 +14,12 @@
 
                 <div class="col1-3">
                     <h2 class="separate">Try a demo account</h2>
-                    <div class="content withIcon icon1"><p>Demo a no-risk and free platform. Ready to jump into trading with a free AMT demo account? Try our popular MetaTrader 4 account. MetaTrader has been a leader in Forex trading software for years.</p><a href="<?= $baseUrl ?>/upload/amtmarket4setup.exe" class="button"><span>Try it now</span></a></div>
+                    <div class="content withIcon icon1"><p>Demo a no-risk and free platform. Ready to jump into trading with a free AMT demo account? Try our popular MetaTrader 4 account. MetaTrader has been a leader in Forex trading software for years.</p><a href="<?= $baseUrl ?>/demoaccount" class="button"><span>Try it now</span></a></div>
                 </div>
 
                 <div class="col1-3">
                     <h2 class="separate">Open a live account</h2>
-                    <div class="content withIcon icon3"><p>Regardless of your skill-level, strategy, or trading size, AMT offers an optimal solution for online Forex trading for you to trade effectively. Our application process is secure, fast, and simple.</p><a href="<?= $baseUrl ?>/" class="button"><span>Sign up</span></a></div>
+                    <div class="content withIcon icon3"><p>Regardless of your skill-level, strategy, or trading size, AMT offers an optimal solution for online Forex trading for you to trade effectively. Our application process is secure, fast, and simple.</p><a href="<?= $baseUrl ?>/liveaccount" class="button"><span>Sign up</span></a></div>
                 </div>
 
             </div>                                

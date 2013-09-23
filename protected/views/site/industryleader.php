@@ -32,7 +32,7 @@
             <div class="col3-4">
                 <h2 class="separate">Industry Leader</h2>
 
-                <h2 class="lead-in">Auto Matrix Traders, one of the leading provider of foreign exchange trading (currency trading) to retail and institutional customers.</h2>
+                <h4>Auto Matrix Traders, one of the leading provider of foreign exchange trading (currency trading) to retail and institutional customers.</h4>
                 <img src="<?= $baseUrl; ?>/images/forex-banner.jpg" width="700px">
                 <h3>What We Have to Offer</h3>
                 <p>Clients who trade through AMT Market can take advantage of mobile trading, one-click order execution, and trading from real-time charts. However, the heart of our client offering is our <a href="#">No Dealing Desk</a> forex execution. Clients benefit from our large network of forex liquidity providers, which include global banks, financial institutions, prime brokers and other market makers, enabling us to offer <a href="#">competitive spreads</a> on major currency pairs. Serious traders expect their orders to be filled quickly, at the best price available, and nothing less. This is what AMT delivers. We fill your order at the best available price at the time the No Dealing Desk receives it. This price includes AMT's markup which may vary based on account type and liquidity provider.</p>

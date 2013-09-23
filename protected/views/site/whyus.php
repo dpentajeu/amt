@@ -31,7 +31,7 @@
 
             <div class="col3-4">
                 <h2 class="separate">Why AMT Market</h2>
-                    <h2>We deliver high quality service through our offerings of superior technology, liquidity and trade execution to our customers.</h2>
+                    <h4>We deliver high quality service through our offerings of superior technology, liquidity and trade execution to our customers.</h4>
                     <p>
                         <ul style="list-style-type:circle;">
                             <li><h3>Continuously optimized to remain on the cusp of innovation</h3></li>
@@ -48,7 +48,7 @@
                     <p>
                         Sign up now and enjoy the safest fund protection in the industry. 
                         <br/>
-                        <a href="#" class="button"><span>Open a Live Account</span></a>
+                        <a href="<?= $baseUrl ?>/liveaccount" class="button"><span>Open a Live Account</span></a>
                     </p>    
             </div>
         </div>  

@@ -21,10 +21,10 @@
     </head>
     <body>            
         
-        <header><div class="wrap">
+        <header style="<?php echo $this->style ?>"><div class="wrap">
                 <div id="header">   
                     
-                    <a id="logo" href="./" title="Asterisk"><img style="width:280px;height:70px" src="<?= $baseUrl; ?>/img/AMT_logo.png" /></a>
+                    <a id="logo" href="./" title="Asterisk"><img style="width:280px;height:70px;margin: 0.5em 0 0 0;" src="<?= $baseUrl; ?>/img/AMT_logo.png" /></a>
                     
                     <hr><nav>
                             <ul>
@@ -67,14 +67,15 @@
                                 </ul>
                             </li>
                             <li style="padding-top:25px">
-                                <img src="<?= $baseUrl ?>/images/user.png">
+                                <a href="http://member.amtmarket.com/" style="padding:0px;"><img src="<?= $baseUrl ?>/images/user.png"></a>
                             </li>
                         </ul></nav></div> <!-- / #header -->
                 
                 <?php $isFrontpage = false;
                         if ((Yii::app()->controller->getId().'/'.Yii::app()->controller->getAction()->getId()) == 'site/index'  ) { 
                             $isFrontpage = true;
-                        } if($isFrontpage == true){?>
+                        } 
+                        if($isFrontpage == true){   ?>
                 <hr>
                 <div id="intro">
                         
@@ -83,7 +84,7 @@
                     
                     <p>Deliver opportunities to your doorstep. Start trading today!</p>
                     
-                    <a href="<?= $baseUrl;?>/" class="button"><span>Sign up</span></a>
+                    <a href="<?= $baseUrl;?>/liveaccount" class="button"><span>Sign up</span></a>
                     
                     <div id="macbook">
                         <img class="screen" src="<?= $baseUrl;?>/images/finance.jpg" style="width: 366px; height: 227px;" alt="Screen"></div>
@@ -123,7 +124,7 @@
                 </script>
                 <?php } ?>
             </div>
-        </header><hr>      
+        </header>      
         
         <?php echo $content; ?>
         

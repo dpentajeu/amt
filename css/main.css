@@ -40,7 +40,7 @@ h4 {font-size: 1.0em;}
 *  HEADER                                                                                                          
 *******************************************************************************************************************/
 #header {height: 120px;position: relative;} 
-#header a#logo {font-size: 1.8em;font-weight: bold;display: block;line-height: 98px;top: 0;left: 0;float:left;}
+#header a#logo {font-size: 1.8em;font-weight: bold;display: block;top: 0;left: 0;float:left;}
 #header a#logo:hover {text-decoration: none;color: #000}
 #header nav {float: right;}
 #header nav ul ul {	display: none;}
@@ -86,7 +86,7 @@ h4 {font-size: 1.0em;}
 #header nav ul li:hover ul li {
 	
 }
-#intro {color: #fff;height: 255px;position: relative;padding: 25px 550px 10px 0;position: relative}
+#intro {color: #fff;height: 255px;position: relative;padding: 28px 550px 10px 0;position: relative}
 #intro #macbook {position: absolute;bottom: -34px;right: 0;width: 550px;height: 309px;background: url('../img/macbook.png') no-repeat}
 #intro #macbook img {position: relative;top: 20px;left:89px}
 #intro h2 {font-size: 1.2em;text-shadow: 0 0 0;color: #afadae}
@@ -157,5 +157,9 @@ a.photo:hover img {border-color: #d1d1d1}
 .col3-4 {width: 700px;float: right}
 .marginBottom30 {margin-bottom: 30px}
 .date {font-size: 11px;display: block;margin-bottom: 10px }
+
+input {font-size: 1.1em; min-height: 25px; min-width: 360px}
+select {font-size: 1.1em; min-height: 25px; min-width: 360px}
+label {font-size: 1.1em;color: #000;text-shadow: 1px 1px 1px #fff;margin-bottom: 8px}
 
 

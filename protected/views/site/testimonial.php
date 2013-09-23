@@ -52,7 +52,7 @@
                 <p>
                     Sign up now and enjoy the safest fund protection in the industry. 
                     <br/>
-                    <a href="#" class="button"><span>Open a Live Account</span></a> 
+                    <a href="<?= $baseUrl ?>/liveaccount" class="button"><span>Open a Live Account</span></a> 
                 </p>
            </div>
         </div>  

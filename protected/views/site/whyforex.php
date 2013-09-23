@@ -29,7 +29,7 @@
                 <h2 class="separate">Why Trade Forex?</h2>
 
 
-                <h2 class="lead-in">Online forex trading has become very popular in the past decade because it offers traders several advantages:</h2>
+                <h4>Online forex trading has become very popular in the past decade because it offers traders several advantages:</h4>
                 <h3>Forex never sleeps</h3>
                 <p>Trading goes on all around the world during different countries' business hours.  You can, therefore, trade major currencies at any time, 24 hours per day.  Since there are no set exchange hours, it means that there is also something happening at almost any time of the day or night.<sup>1</sup></p>
                 <h3>Go long or short</h3>

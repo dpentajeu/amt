@@ -5,6 +5,8 @@ class SiteController extends Controller
 	/**
 	 * Declares class-based actions.
 	 */
+	public $style = 'background-color:white';
+
 	public function actions()
 	{
 		return array(
@@ -35,6 +37,7 @@ class SiteController extends Controller
 		// if (preg_match('#<div class="global-rates"[^>]*>(.+?)</div>#is', $page, $matches));
 		// header("content-type: text/plain");
 		// echo $matches[0];
+		$this->style = '';
 		$this->render('index');
 	}
 
@@ -78,6 +81,16 @@ class SiteController extends Controller
 		$this->render('contact',array('model'=>$model));
 	}
 
+	public function actionDemoaccount()
+	{
+		$this->render('demoaccount');
+	}
+
+	public function actionLiveaccount()
+	{
+		$this->render('liveaccount');
+	}
+
 	/**
 	 * Displays the login page
 	 */
@@ -113,7 +126,7 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
         
-        public function actionPage($page, $id = null)
+    public function actionPage($page, $id = null)
 	{
 		$param = array();
 
@@ -127,6 +140,14 @@ class SiteController extends Controller
 				call_user_func(array($this, 'action'.ucfirst($page)), $id);
 				// $this->redirect("$base/site/$page/$id");
 			Yii::app()->end();
+		}
+		else if($page == 'demoaccount')
+		{
+			$this->redirect(array('demoaccount'));
+		}
+		else if($page == 'liveaccount')
+		{
+			$this->redirect(array('liveaccount'));
 		}
         else if($page == 'news')
 		{
