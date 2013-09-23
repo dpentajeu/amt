@@ -168,6 +168,8 @@
             $.ajax({
               type: "POST",
               url: 'http://member.amtmarket.com/site/newmember',
+              crossDomain: true,
+              dataType: 'jsonp',
               data: $('form').serialize(),
               success: function(data){
                 if(data[0].hasError)
