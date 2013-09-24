@@ -39,8 +39,7 @@
                 </div>
 
                 <div class="col1-4">
-                    <iframe id="iframe" src="http://www.forex-informers.com/forex_news/informer/sz=200_160&amp;cn=5&amp;r=1&amp;hc=0&amp;s=&amp;sf=v&amp;ss=10&amp;sw=0&amp;sd=0&amp;si=0&amp;sht=1&amp;tf=v&amp;ts=11&amp;tw=0&amp;td=0&amp;ti=1&amp;c1=ffffff&amp;c2=ff0000&amp;c3=000000&amp;c4=fa0000" frameborder="0" width="200px" height="100%" scrolling="no" style="height: 400px;">
-                    </iframe>
+                    <script src="http://www.dailyfx.com/dailyfxcalendar?l=5&w=230" type="text/javascript" ></script><table style="font:10px Verdana,Geneva,sans-serif;color:#ffffff;width: 230px;" border="0" cellspacing="0" cellpadding="0" bgcolor="#FD8B0A"><tr style="text-align:center;"><td style="vertical-align: bottom; white-space:nowrap; padding: 5px 0 7px 0; "><a href="http://www.dailyfx.com/minicalendar" target="_blank" class="footer">Grab This!</a></td><td>|</td><td><a href="http://www.dailyfx.com/calendar" target="_blank" class="footer">Economic Calendar</a></td><td>|</td><td><a href="http://www.dailyfx.com" target="_blank" class="footer">Forex News</a></td></tr></table>
                 </div>
 
                 <div class="col1-4">
