@@ -15,9 +15,9 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
         <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
-        </script><!--[if lt IE 9]>
+        <script src="js/jquery.fancybox-1.3.4.pack.js"></script><!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <![endif]-->          
     </head>
     <body>            
         
@@ -76,23 +76,61 @@
                             $isFrontpage = true;
                         } 
                         if($isFrontpage == true){   ?>
-                <hr>
-                <div id="intro">
-                        
-                    <h1>AMT Market, Trade with Confidence!</h1>
-                    <h2></h2>
-                    
-                    <p>Deliver opportunities to your doorstep. Start trading today!</p>
-                    
-                    <a href="<?= $baseUrl;?>/liveaccount" class="button"><span>Sign up</span></a>
-                    
-                    <div id="macbook">
-                        <img class="screen" src="<?= $baseUrl;?>/images/finance.jpg" style="width: 366px; height: 227px;" alt="Screen"></div>
+               
+                    <link rel="stylesheet" href="<?= $baseUrl ?>/css/flexslider.css" />
+                    <script src="<?= $baseUrl ?>/js/jquery.flexslider-min.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        $(window).load(function() {
+                            $('#flexslider').flexslider({
+                                animation: "slide", //<!--you can also choose fade here-->
+                                directionNav: true, //<!--Attention: if you choose true here, the nav-buttons will also appear in the ticker! -->
+                                keyboardNav: true,
+                                mousewheel: true,
+                                prevText: "Previous", //String: Set the text for the "previous" directionNav item
+                                nextText: "Next",
+                            });
+                        });
+                    </script>
+                    <style>
+                        #sliderwrap {
+                            max-width: 986px;
+                            float: none;
+                            /*margin: 15px auto 0px auto;*/
+                            max-height: 280px;
+                            background-color: white;
+                            border: 1px solid #d5d5d5;
+                            padding: 6px;
+                        }
+                    </style>
 
-                </div> <!-- / #intro -->
-                
                 <hr>
-                <div id="subIntro">
+                <div id="sliderwrap">
+                    <div id="flexslider" style="height:280px;">                        
+                        <ul class="slides">
+                            <li>
+                                <a href="<?=$baseUrl ?>/liveaccount">
+                                    <img src="<?= $baseUrl ?>/images/banner1.png" alt="demo-image" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?=$baseUrl ?>/whyus">
+                                    <img src="<?= $baseUrl ?>/images/banner3.jpg" alt="demo-image" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?=$baseUrl ?>/whatisforex">
+                                    <img src="<?= $baseUrl ?>/images/banner4.gif" alt="demo-image" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?=$baseUrl ?>/education">
+                                    <img src="<?= $baseUrl ?>/images/banner5.jpg" alt="demo-image" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <hr><div id="subIntro">
                         
                     <div class="floatLeft">
                         <h2>AMT Market's innovative solutions</h2> 
@@ -105,23 +143,6 @@
                     </div>            
                 </div> <!-- / #subIntro -->
 
-                <script type="text/javascript">
-                    var counter = 0;
-                    $(document).ready(function(){
-                        setInterval(imageSlide, 5000);
-                    });
-
-                    function imageSlide()
-                    {
-                        counter += 1;
-                        var img = ['finance.jpg', 'finance_2.png', 'finance_3.png', 'finance_4.jpg'];
-                        if(counter == 4)
-                            counter = 0;
-
-                        var url = '<?= $baseUrl ?>' + '/images/' + img[counter];
-                        $('img.screen').attr('src',url);
-                    }
-                </script>
                 <?php } ?>
             </div>
         </header>      
