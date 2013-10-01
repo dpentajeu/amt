@@ -1,7 +1,6 @@
 <?php
     $baseUrl = Yii::app()->request->baseUrl;
 ?>
-
 <div id="container">
         <div id="content" class="wrap">                
 

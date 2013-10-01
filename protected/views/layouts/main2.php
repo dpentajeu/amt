@@ -15,10 +15,10 @@
         <link rel="stylesheet" href="css/style.css">
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
         <script src="js/jquery.mousewheel-3.0.4.pack.js"></script>
-        <script src="js/jquery.fancybox-1.3.4.pack.js"></script><script src="js/custom.js">
+        <script src="js/jquery.fancybox-1.3.4.pack.js"></script><!--<script src="js/custom.js">-->
         </script><!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+        <![endif]-->          
     </head>
     <body>            
         
@@ -58,20 +58,70 @@
                         if ((Yii::app()->controller->getId().'/'.Yii::app()->controller->getAction()->getId()) == 'site/index'  ) { 
                             $isFrontpage = true;
                         } if($isFrontpage == true){?>
-                <hr><div id="intro">
-                        
-                    <h1>AMT Market, Trade with Confidence!</h1>
-                    <h2></h2>
-                    
-                    <p>Deliver opportunities to your doorstep.</p>
-                    
-                    <a href="<?= $baseUrl;?>/aboutus" class="button" title="MORE ABOUT US"><span>MORE ABOUT US</span></a>
-                    
-                    <div id="macbook">
-                        <img src="<?= $baseUrl;?>/img/pages/finance.jpg" style="width: 366px; height: 227px;" alt="Screen"></div>
 
-                </div> <!-- / #intro -->
-                
+                    <link rel="stylesheet" href="<?= $baseUrl ?>/css/flexslider.css" />
+                    <script src="<?= $baseUrl ?>/js/jquery.flexslider-min.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                        $(window).load(function() {
+                            $('#flexslider').flexslider({
+                                animation: "slide", //<!--you can also choose fade here-->
+                                directionNav: true, //<!--Attention: if you choose true here, the nav-buttons will also appear in the ticker! -->
+                                keyboardNav: true,
+                                mousewheel: true,
+                                prevText: "Previous", //String: Set the text for the "previous" directionNav item
+                                nextText: "Next",
+                            });
+                        });
+                    </script>
+                    <style>
+                        #sliderwrap {
+                            max-width: 986px;
+                            float: none;
+                            margin: 15px auto 0px auto;
+                            max-height: 280px;
+                            background-color: white;
+                            border: 1px solid #d5d5d5;
+                            padding: 6px;
+                        }
+                    </style>
+
+                <hr>
+                <div id="sliderwrap">
+                    <div id="flexslider" style="height:280px;">                        
+                        <ul class="slides">
+                            <li>
+                                <a href="#">
+                                    <img src="<?= $baseUrl ?>/img/pages/finance1.jpg" alt="demo-image" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="<?= $baseUrl ?>/img/pages/finance2.jpg" alt="demo-image" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="<?= $baseUrl ?>/img/pages/finance3.jpg" alt="demo-image" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="<?= $baseUrl ?>/img/pages/finance4.jpg" alt="demo-image" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="<?= $baseUrl ?>/img/pages/finance5.jpg" alt="demo-image" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="<?= $baseUrl ?>/img/pages/finance6.png" alt="demo-image" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <hr><div id="subIntro">
                         
                     <div class="floatLeft">
