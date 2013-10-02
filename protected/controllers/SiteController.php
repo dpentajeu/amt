@@ -122,7 +122,7 @@ class SiteController extends Controller
 				// $this->redirect("$base/site/$page/$id");
 			Yii::app()->end();
 		}
-                else if($page == 'news')
+        else if($page == 'news')
 		{
 			$financeUrl = 'http://finance.yahoo.com/rss/topfinstories';
 			$xml = new SimpleXMLElement(file_get_contents($financeUrl));
