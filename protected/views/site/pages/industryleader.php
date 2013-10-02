@@ -7,7 +7,7 @@
         <div class="marginBottom30 clearFix">
 
             <div class="col1-4">
-                <h2>Resources</h2>
+                <h2>About AMT Market</h2>
                 <ul>
                     <li>
                         <a href="<?= $baseUrl; ?>/aboutus" class="more">About us</a>
