@@ -7,19 +7,24 @@
         <div class="marginBottom30 clearFix">
 
             <div class="col1-4">
-                <h2>Basic</h2>
+                <h2>Knowledge centre</h2>
                 <ul>
                     <li>
-                        <a href="<?= $baseUrl; ?>/whatisforex" class="more">What is Forex?</a>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'whatisforex')); ?>" class="more">What is Forex?</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/whyforex" class="more">Why Trade Forex?</a>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'education')); ?>" class="more">Education</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/basicconcepts" class="more">Basic Concepts</a>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'tradingtips')); ?>" class="more">Trading tips</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'whyforex')); ?>" class="more">Why Trade Forex?</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'faq')); ?>" class="more">FAQs</a>
                     </li>
                 </ul>
-                
             </div>
 
             <div class="col3-4">
@@ -27,7 +32,7 @@
 
                 <h3>10 GREAT FOREX TRADING TIPS</h3><br/>
                 <h4>Below are some well-known trading tips for Foreign Exchange traders.</h4>
-                <ol style="list-style-type:decimal;">
+                <ol style="list-style-type: decimal; text-align: justify;">
                     <li>An old cliché but one which holds great truth – ALWAYS trade in the direction of the trend. In the Forex markets we see great trends in currency pairs that last for a long time (cycles). Therefore, it pays to identify the dominant trend of currency pairs. Going against the trend will only cost you a lot of money and destabilise you emotionally.</li><br/>
                     <li>Plan your trade, trade your plan. Trade plans can be made well in advance in the Forex market and help eliminate emotional trading. The more mechanical you become in entering and exiting trades, the more profitable and consistent you will become in the long run.</li><br/>
                     <li>Before initiating any trade, always know your risk and truly accept this risk. The risk is defined as the number of pips from your entry to your stop loss.</li><br/>

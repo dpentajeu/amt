@@ -94,6 +94,7 @@ $cs->registerPackage('bootstrap');
                                         'url'=>array('site/page', 'view'=>'whatisforex'),
                                         'items'=>array(
                                             array('label'=>'Education', 'url'=>array('site/page', 'view'=>'education')),
+                                            array('label'=>'Trading tips', 'url'=>array('site/page', 'view'=>'tradingtips')),
                                             array('label'=>'Why trade Forex?', 'url'=>array('site/page', 'view'=>'whyforex')),
                                             array('label'=>'FAQ', 'url'=>array('site/page', 'view'=>'faq')),
                                         )
