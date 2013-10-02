@@ -52,7 +52,7 @@ $cs->registerPackage('bootstrap');
             <div class="container">
                 <div style="padding: .8em 0;">
                     <a id="logo" href="<?php $baseUrl; ?>/">
-                        <img style="width:280px;height:70px;" src="<?php echo $baseUrl; ?>/img/AMT_logo.png" />
+                        <img style="height:50px;" src="<?php echo $baseUrl; ?>/img/AMT_logo.png" />
                     </a>
                 </div>
             </div>
