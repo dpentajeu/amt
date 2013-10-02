@@ -40,15 +40,30 @@ return array(
 		
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+			'showScriptName'=>false,
 			'rules'=>array(
-                                '<page:\w+>'=>'site/page',
-				'<page:\w+>/<id:\d+>'=>'site/page',
+				''=>'site/index',
+				'<action:news>'=>'site/<action>',
+				'<view:\w+>'=>'site/page',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		
+		'clientScript'=>array(
+			'class'=>'application.components.ClientScript',
+			'packages'=>array(
+				'bootstrap'=>array(
+					'baseUrl'=>'',
+					'css'=>array(
+						array('css/bootstrap.min.css', array('media'=>'screen')),
+						'css/bootstrap-theme.min.css'
+					),
+					'js'=>array('js/bootstrap.min.js'),
+					'depends'=>array('jquery'),
+				),
+			),
+		),
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),

@@ -91,75 +91,12 @@ class SiteController extends Controller
 		$this->render('liveaccount');
 	}
 
-	/**
-	 * Displays the login page
-	 */
-	public function actionLogin()
+	public function actionNews()
 	{
-		$model=new LoginForm;
-
-		// if it is ajax validation request
-		if(isset($_POST['ajax']) && $_POST['ajax']==='login-form')
-		{
-			echo CActiveForm::validate($model);
-			Yii::app()->end();
-		}
-
-		// collect user input data
-		if(isset($_POST['LoginForm']))
-		{
-			$model->attributes=$_POST['LoginForm'];
-			// validate user input and redirect to the previous page if valid
-			if($model->validate() && $model->login())
-				$this->redirect(Yii::app()->user->returnUrl);
-		}
-		// display the login form
-		$this->render('login',array('model'=>$model));
-	}
-
-	/**
-	 * Logs out the current user and redirect to homepage.
-	 */
-	public function actionLogout()
-	{
-		Yii::app()->user->logout();
-		$this->redirect(Yii::app()->homeUrl);
-	}
-        
-    public function actionPage($page, $id = null)
-	{
-		$param = array();
-
-		if (method_exists($this, 'action'.ucfirst($page)))
-		{
-			$base = Yii::app()->request->baseUrl;
-			if (is_null($id))
-				call_user_func(array($this, 'action'.ucfirst($page)));
-				// $this->redirect("$base/site/$page");
-			else
-				call_user_func(array($this, 'action'.ucfirst($page)), $id);
-				// $this->redirect("$base/site/$page/$id");
-			Yii::app()->end();
-		}
-		else if($page == 'demoaccount')
-		{
-			$this->redirect(array('demoaccount'));
-		}
-		else if($page == 'liveaccount')
-		{
-			$this->redirect(array('liveaccount'));
-		}
-        else if($page == 'news')
-		{
-			$financeUrl = 'http://finance.yahoo.com/rss/topfinstories';
-			$xml = new SimpleXMLElement(file_get_contents($financeUrl));
-			$activeNews = array();
-			
-			foreach ($xml->channel->item as $key) $activeNews[] = $key;
-
-			$param['activeNews'] = $activeNews;
-		}
-
-		$this->render($page, $param);
+		$financeUrl = 'http://finance.yahoo.com/rss/topfinstories';
+		$xml = new SimpleXMLElement(file_get_contents($financeUrl));
+		$activeNews = array();
+		foreach ($xml->channel->item as $key) $activeNews[] = $key;
+		$this->render('news', compact('activeNews'));
 	}
 }
