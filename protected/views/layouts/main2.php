@@ -167,7 +167,7 @@
                     <div class="col1-4">
                         <h3>About us</h3>
                         
-                        <p>AMT Market is registered as Financial Service Provider in Hong Kong. At AMT Market, we provide you leading forex resources, news and services that will impact your forex trading experience.</p>
+                        <p>At AMT Market, we provide you leading forex resources, news and services that will impact your forex trading experience.</p>
                     </div>
                     
                     <div class="col1-4">
