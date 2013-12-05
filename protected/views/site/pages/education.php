@@ -10,19 +10,21 @@
                 <h2>Knowledge centre</h2>
                 <ul>
                     <li>
-                        <a href="<?= $baseUrl; ?>/whatisforex" class="more">What is Forex?</a>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'whatisforex')); ?>" class="more">What is Forex?</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/education" class="more">Education</a>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'education')); ?>" class="more">Education</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/whyforex" class="more">Why Trade Forex?</a>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'tradingtips')); ?>" class="more">Trading tips</a>
                     </li>
                     <li>
-                        <a href="<?= $baseUrl; ?>/faq" class="more">FAQs</a>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'whyforex')); ?>" class="more">Why Trade Forex?</a>
+                    </li>
+                    <li>
+                        <a href="<?php echo $this->createUrl('site/page', array('view'=>'faq')); ?>" class="more">FAQs</a>
                     </li>
                 </ul>
-                
             </div>
 
             <div class="col3-4">
